@@ -1,0 +1,143 @@
+html,
+body {
+  font-family: sans-serif;
+  color: #404040;
+  background: none;
+  overflow: scroll;
+  margin: 0;
+}
+.head {
+  color: yellow;
+  font-style: italic;
+  font-size: 150%;
+}
+
+.info-button {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  padding: 5px;
+  width: auto; height: auto;
+  color: #fefefe;
+  font-family: courier;
+}
+
+.panel {
+  font-family: courier;
+  font-weight: normal;
+  position: fixed;
+  border: 1px solid #fefefe;
+  background-color: black;
+  margin: 10%;
+  color: #fefefe;
+  font-size: 150%;
+  padding: 90px;
+  z-index: 3;
+}
+
+.hide { visibility: hidden; }
+.panel a { color: #fefefe; }
+.panel a:hover {color: yellow; }
+.yellow { color: yellow; }
+
+.menu-form {
+  margin: 1em 0em;
+  text-align: center;
+}
+.text-input {
+  width: 50%;
+  position:absolute;
+  background: none;
+  color: white;
+  box-shadow: none;
+}
+#name-box {
+  border: none;
+  font-size: inherit;
+  font-family: inherit;
+  float: left;
+  margin-left: 5px;
+  color: yellow;
+}
+#status-box {
+  padding: 0.5em;
+  left: 25%;
+  top: 10px;
+  font-size: 100%;
+  border: 1px solid #fefefe;
+  border-radius: 10px;
+}
+
+.live { border: 2px solid #5CA0FF; }
+
+.text-input:focus {
+  outline: none;
+}
+::-webkit-input-placeholder {
+ color: rgba(160, 160, 160, 1);
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: rgba(160, 160, 160, 1);
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(160, 160, 160, 1);
+}
+:-ms-input-placeholder {
+   color: rgba(160, 160, 160, 1);
+}
+
+.container {
+  position: absolute;
+  z-index: 1;
+  width: 50%;
+  margin-top: 20px;
+  left: 25%;
+  max-height: 99vh;
+  overflow-y: scroll;
+  font-size: 120%;
+  padding: 0;
+}
+
+.button-group {
+  margin-bottom: 20px;
+}
+.form-style {
+  display: inline;
+}
+
+.posts {
+  clear: both;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.left {
+  text-align: left;
+  background-color: #eee;
+}
+
+#right {
+  text-align: right;
+  color: white;
+  background-color: #5ca0ff;
+}
+.typer {
+  background-image: url('media/narrow_bubble.jpg');
+  background-size: contain;
+  opacity: 1.0;
+}
+
+.posts li {
+  opacity: 1.0;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 8px;
+  word-wrap: break-word;
+  min-height: 22px;
+}
