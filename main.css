@@ -26,13 +26,21 @@ body {
   font-family: courier;
   font-weight: normal;
   position: fixed;
-  border: 1px solid #fefefe;
   background-color: black;
   margin: 10%;
   color: #fefefe;
   font-size: 150%;
-  padding: 90px;
   z-index: 3;
+}
+#welcome-panel {
+  border-bottom: 10px solid yellow;
+  top: 25%;
+  padding-bottom: 40px;
+  padding-right: 80px;
+}
+#info-panel {
+  border: 1px solid #fefefe;
+  padding: 90px;
 }
 
 .hide { visibility: hidden; }
@@ -98,11 +106,9 @@ body {
   padding: 0;
 }
 
-.button-group {
-  margin-bottom: 20px;
-}
-.form-style {
-  display: inline;
+.typer {
+  background-image: url('media/narrow_bubble.jpg');
+  background-size: contain;
 }
 
 .posts {
@@ -124,14 +130,8 @@ body {
   color: white;
   background-color: #5ca0ff;
 }
-.typer {
-  background-image: url('media/narrow_bubble.jpg');
-  background-size: contain;
-  opacity: 1.0;
-}
 
 .posts li {
-  opacity: 1.0;
   border-radius: 10px;
   padding-top: 5px;
   padding-left: 15px;

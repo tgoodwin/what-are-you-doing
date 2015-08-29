@@ -38,5 +38,3 @@ make boxes slightly oscillate in size
 - requires reimplementing add_box() using MatrixGeometry
 - add some sort of random noise to box vertices, update on call to render()
 - maybe have to store all vertices in an array, then apply noise function?
-add click functionality to "[esc] for help" thing.
-
